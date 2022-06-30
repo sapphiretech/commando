@@ -6,7 +6,7 @@
 
   <groupId>me.idriz.commando</groupId>
   <artifactId>commando-parent</artifactId>
-  <version>1.2.5-SNAPSHOT</version>
+  <version>1.2.6</version>
   <properties>
     <java.version>11</java.version>
   </properties>
@@ -33,4 +33,14 @@
   <name>Commando</name>
   <description>The command library for my stuff.</description>
 
+  <distributionManagement>
+    <repository>
+      <id>sapphire-release</id>
+      <url>https://maven.saph.llc/releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>sapphire-snapshot</id>
+      <url>https://maven.saph.llc/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>

@@ -5,7 +5,7 @@
   <parent>
     <artifactId>commando-discord</artifactId>
     <groupId>me.idriz.commando</groupId>
-    <version>1.2.5-SNAPSHOT</version>
+    <version>1.2.6</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
@@ -14,18 +14,18 @@
     <dependency>
       <groupId>org.javacord</groupId>
       <artifactId>javacord</artifactId>
-      <version>3.3.0</version>
+      <version>3.4.0</version>
       <type>pom</type>
     </dependency>
     <dependency>
       <groupId>me.idriz.commando</groupId>
       <artifactId>commando-core</artifactId>
-      <version>1.2.5-SNAPSHOT</version>
+      <version>1.2.6</version>
     </dependency>
     <dependency>
       <groupId>org.jetbrains</groupId>
       <artifactId>annotations</artifactId>
-      <version>21.0.0</version>
+      <version>23.0.0</version>
     </dependency>
   </dependencies>
 
